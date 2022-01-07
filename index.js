@@ -9,8 +9,8 @@ const main = async () => {
       const client = await API.rest.Trade.Orders.postOrder(
         {
           side: "buy",
-          symbol: "ETH-BTC",
-          type: "market",
+          symbol: "BTC-USDT",
+          type: "limit",
           clientOid: "61ba53e234b3b9000160a97f",
         },
         { size: "1" }
